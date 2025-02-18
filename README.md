@@ -1,66 +1,80 @@
-Interactive Class Timetable - React Component
+# 📅 Interactive Class Timetable - React Component
+
 A modern, responsive timetable component built with Next.js, React, and Tailwind CSS. Features a clean, glassmorphic design with a color-coded subject system.
 
-![timetable](https://github.com/user-attachments/assets/8a32c9e4-93c2-4669-b545-23448c4d15a3)
+![Timetable Preview](https://github.com/user-attachments/assets/8a32c9e4-93c2-4669-b545-23448c4d15a3)
 
+## ✨ Features
 
+- 📱 **Fully Responsive Design** - Works perfectly on all screen sizes
+- 🎨 **Color-Coded Subjects** - Easy subject identification
+- 💠 **Modern Glassmorphic UI** - Beautiful, modern interface
+- 🌈 **Gradient Backgrounds** - Smooth transitions and eye-catching design
+- 📊 **Clean Layout** - Organized and intuitive interface
+- 🎯 **Highly Customizable** - Easy to extend and modify
 
-Features
+## 🚀 Getting Started
 
-📱 Fully responsive design
-🎨 Color-coded subjects for easy identification
-💠 Modern glassmorphic UI elements
-🌈 Gradient backgrounds and smooth transitions
-📊 Clean, organized layout
-🎯 Easy to customize and extend
+### Prerequisites
 
-Prerequisites
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have installed:
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-Node.js (v14.0.0 or higher)
-npm (v6.0.0 or higher)
+### Installation
 
-Installation
-
-Create a new Next.js project:
-``` bash
+1. **Create a new Next.js project:**
+```bash
 npx create-next-app@latest timetable-app --typescript --tailwind --eslint
-```
-``` bash
 cd timetable-app
 ```
 
-Install required dependencies:
-
-``` bash
+2. **Install required dependencies:**
+```bash
 npm install @radix-ui/react-icons @radix-ui/react-slot clsx tailwindcss-animate class-variance-authority tailwind-merge @tailwindcss/forms
 ```
 
-## Development
+## 💻 Development
 
-First, run the development server:
-
-``` bash
+1. **Start the development server:**
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **View your project:**
+- Open [http://localhost:3000](http://localhost:3000) in your browser
+- The page auto-updates as you edit the files
+- Start by modifying `app/page.tsx`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Learn More
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Next.js Resources
+- [Next.js Documentation](https://nextjs.org/docs) - Features and API
+- [Learn Next.js](https://nextjs.org/learn) - Interactive tutorial
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
 
-## Learn More
+### Font Optimization
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a custom font family from Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For detailed deployment instructions, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-building-your-application/deploying).
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Feel free to:
+- Submit issues
+- Create pull requests
+- Suggest improvements
+- Share feedback
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Built with ❤️ using [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/)
