@@ -1,8 +1,42 @@
+Interactive Class Timetable - React Component
+A modern, responsive timetable component built with Next.js, React, and Tailwind CSS. Features a clean, glassmorphic design with a color-coded subject system.
 
 ![timetable](https://github.com/user-attachments/assets/8a32c9e4-93c2-4669-b545-23448c4d15a3)
 
 
-## Getting Started
+
+Features
+
+📱 Fully responsive design
+🎨 Color-coded subjects for easy identification
+💠 Modern glassmorphic UI elements
+🌈 Gradient backgrounds and smooth transitions
+📊 Clean, organized layout
+🎯 Easy to customize and extend
+
+Prerequisites
+Before you begin, ensure you have the following installed:
+
+Node.js (v14.0.0 or higher)
+npm (v6.0.0 or higher)
+
+Installation
+
+Create a new Next.js project:
+``` bash
+npx create-next-app@latest timetable-app --typescript --tailwind --eslint
+```
+``` bash
+cd timetable-app
+```
+
+Install required dependencies:
+
+``` bash
+npm install @radix-ui/react-icons @radix-ui/react-slot clsx tailwindcss-animate class-variance-authority tailwind-merge @tailwindcss/forms
+```
+
+## Development
 
 First, run the development server:
 
